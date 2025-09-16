@@ -8,20 +8,27 @@ super + Escape
 
 # Launch Terminal
 super + Return
-    st
+	alacritty
     #terminal
 
 # Launch File Manager
 super + e 
-  pcmanfm
+  thunar
+
+super shift + j 
+pkill -f autokey
+
+# recorder
+super + d
+  gpu-screen-recorder-gtk
 
 # Lock Screen
 super + l
-  i3lock -i ~/Pictures/lock.png
+  i3lock -i ~/Pictures/wallpapers/pixelart_night_stars_clouds_trees_cozy.png
 
 # Launch Browser
 super + b 
-  thorium-browser
+  waterfox
 
 # Floating Alacritty Terminal
 super + shift + Return
@@ -40,7 +47,7 @@ alt + F1
     j4-dmenu
 
 super + r 
-  dmenu_run
+  j4-dmenu-desktop --dmenu="dmenu -i -l 10 -nb '#1a1b26' -nf '#c0caf5' -sb '#7aa2f7' -sf '#1a1b26' -fn 'DepartureMono Nerd Font:size=12'"
 
 # Launch Menus
 super + {x,n,d,s}
@@ -104,7 +111,7 @@ super + y
 
 # swap the current node and the biggest window
 super + g
-  ~/myscripts/rofi-games.sh
+  ~/.local/bin/chatgpt-app
 
 #
 # state/flags

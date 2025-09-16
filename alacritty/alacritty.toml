@@ -1,0 +1,15 @@
+[font]
+normal.family = "Departure Mono Nerd Font"
+bold.family = "Departure Mono Nerd Font"
+italic.family = "Departure Mono Nerd Font"
+bold_italic.family = "Departure Mono Nerd Font"
+size = 12.0
+
+[window]
+   padding = { x = 20, y = 26 }
+   dimensions = { columns = 110, lines = 28 }
+   opacity = 0.95
+
+[general]
+
+import = ["~/.config/alacritty/rosepine.toml"]
