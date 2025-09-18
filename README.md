@@ -14,6 +14,6 @@
 - [TokyoNight Theme](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night)  
 - [Spotify](https://open.spotify.com/)  
 
-### [My Site](https://madiv.xyz/)
+# [My Site](https://madiv.xyz/)
 
 
